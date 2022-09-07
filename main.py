@@ -12,7 +12,7 @@ def main():
     text = input()
     if text == 'error':
         logger.info('Get Error!')
-        add_info_to_mongo({"ip": "10.74.8.11",
+        add_info_to_mongo({"ip": "10.74.8.115",
                            "name_user": "chumakova",
                            "error1": 'ImportError',
                            "time": f'{datetime.now()}'

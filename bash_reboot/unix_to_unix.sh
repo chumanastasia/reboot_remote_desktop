@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sshpass -p '[password]' ssh -q  [username]@$1 "echo "password"|sudo -S shutdown -r now"
+sshpass -p $2 ssh  $3@$1 "echo "$2"|sudo -S shutdown -r now"
